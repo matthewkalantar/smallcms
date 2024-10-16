@@ -68,7 +68,7 @@ namespace SmallCMS.Application.UnitTests.BlogPosts
             // Assert
             Assert.NotNull(result);
             Assert.Equal("Test Post 1", result.Title);
-            Assert.Equal("Test Body 1", result.Body);
+            Assert.Equal("Body 1", result.Body);
         }
 
         [Fact]
